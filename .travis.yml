@@ -13,7 +13,8 @@ deploy:
   region: "us-east-2"
   app: "docker"
   env: "Docker-env"
-  bucket_name: "docker"
+  bucket_name: "elasticbeanstalk-us-east-2-908104804117"
+  bucket_path: "docker"
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
